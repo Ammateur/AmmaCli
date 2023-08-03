@@ -1,0 +1,25 @@
+{
+  "name": "amma-lib",
+  "version": "0.0.1",
+  "description": "amma-cli lib project",
+  "author": "ammaxc <ammateur.xc@qq.com>",
+  "homepage": "https://github.com/Ammateur/AmmaCli#readme",
+  "license": "MIT",
+  "main": "lib/amma-lib.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ammateur/AmmaCli.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/amma-lib.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Ammateur/AmmaCli/issues"
+  }
+}
