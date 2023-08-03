@@ -1,7 +1,6 @@
 'use strict';
 
-module.exports = ammaLib;
-
-function ammaLib() {
-  return 'Hello from ammaLib';
+module.exports = add;
+function add(a, b) {
+  return a + b;
 }

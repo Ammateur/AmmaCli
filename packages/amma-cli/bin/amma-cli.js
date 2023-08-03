@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-
-console.log('amma-cli')
+const add = require('amma-lib')
+console.log('amma-cli', add(1, 2))

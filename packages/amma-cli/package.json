@@ -17,8 +17,13 @@
     "url": "git+https://github.com/Ammateur/AmmaCli.git"
   },
   "scripts": {
+    "serve": "nodemon ./bin/amma-cli.js"
   },
   "bugs": {
     "url": "https://github.com/Ammateur/AmmaCli/issues"
+  },
+  "dependencies": {
+    "amma-lib": "workspace:^",
+    "nodemon": "^3.0.1"
   }
 }
