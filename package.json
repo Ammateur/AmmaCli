@@ -9,7 +9,17 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.0.0",
     "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.3",
     "lerna": "^7.1.4",
+    "lint-staged": "^13.2.3",
     "prettier": "^3.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+      "*.js": "eslint --cache --fix"
   }
 }
